@@ -6,23 +6,63 @@
 		<title>Seba.Links - Enlaces de mi</title>
 		<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 	</head>
-	<body class="bg-black">
+	<body
+		class="max-w-xl mx-auto border border-black min-h-screen bg-gradient-to-b from-black via-sky-950 to-gray-800"
+	>
 		<header class="text-white">
-			<h1>Seba.Links</h1>
-			<p>Enlaces de Seba</p>
-			<!-- Twitch -->
-			<a
-				class="bg-purple-100 p-2 size-12 flex items-center justify-center rounded-full hover:bg-purple-300 hover:scale-110 transition-all"
-				href="https://twitch.tv/seba_links"
-				target="_blank"
-				aria-label="Twitch"
-				title="ir a twitch"
-			>
-				<svg width="28" height="28" class="text-white">
-					<use xlink:href="./assets/sprite.svg#twitch" />
-				</svg>
-			</a>
-			<!-- Instagram -->
+			<img
+				src="./assets/Img_Seba.jpg"
+				alt="Foto frontal de Seba"
+				class="w-full object-cover mask-radial-at-center mask-radial-from-50% mask-radial-to-80%"
+			/>
+			<header class="flex flex-col items-center mb-8 -mt-4">
+				<span
+					class="text-sky-400 font-mono px-3 py-1 border border-sky-500/50 rounded-full shadow-sm flex items-center gap-1 bg-black/50 cursor-crosshair z-10"
+					>@seba_links
+					<svg
+						class="ml-1 w-5 h-5 text-sky-400 inline"
+						fill="currentColor"
+						viewBox="0 0 20 20"
+						aria-hidden="true"
+					>
+						<path
+							fill-rule="evenodd"
+							d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-8.707a1 1 0 00-1.414-1.414L9 11.172l-1.293-1.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+							clip-rule="evenodd"
+						/>
+					</svg>
+				</span>
+				<h1 class="text-3xl font-extrabold leading-tight">
+					Sebastián Sanhueza Tapia
+				</h1>
+			</header>
+
+			<section class="flex gap-2 justify-center">
+				<!-- Twitch -->
+				<a
+					class="bg-purple-100 p-2 size-12 flex items-center justify-center rounded-full hover:bg-purple-300 hover:scale-110 transition-all"
+					href="https://twitch.tv/seba_links"
+					target="_blank"
+					aria-label="Twitch"
+					title="ir a twitch"
+				>
+					<svg width="28" height="28" class="text-white">
+						<use xlink:href="./assets/sprite.svg#twitch" />
+					</svg>
+				</a>
+				<!-- Instagram -->
+				<a
+					class="bg-gradient-to-br from-yellow-300 via-pink-600 to-purple-600 p-2 size-12 flex items-center justify-center rounded-full hover:scale-110 transition-all"
+					href="https://instagram.com/seba_links"
+					target="_blank"
+					aria-label="Instagram"
+					title="ir a instagram"
+				>
+					<svg width="28" height="28" class="text-white">
+						<use xlink:href="./assets/sprite.svg#instagram" />
+					</svg>
+				</a>
+				<!-- Instagram
 			<a
 				class="bg-gradient-to-tr from-[#f9ce34] via-[#ee2a7b] to-[#6228d7] p-2 size-12 flex items-center justify-center rounded-full hover:scale-110 transition-all"
 				href="https://instagram.com/seba_links"
@@ -33,55 +73,56 @@
 				<svg width="28" height="28" class="text-white">
 					<use xlink:href="./assets/sprite.svg#instagram" />
 				</svg>
-			</a>
-			<!-- LinkedIn -->
-			<a
-				class="bg-white p-2 size-12 flex items-center justify-center rounded-full hover:bg-sky-200 hover:scale-110 transition-all"
-				href="https://linkedin.com/in/seba_links"
-				target="_blank"
-				aria-label="LinkedIn"
-				title="ir a linkedin"
-			>
-				<svg width="28" height="28" class="text-white">
-					<use xlink:href="./assets/sprite.svg#linkedin" />
-				</svg>
-			</a>
-			<!-- YouTube -->
-			<a
-				class="bg-white p-2 size-12 flex items-center justify-center rounded-full hover:bg-red-200 hover:scale-110 transition-all"
-				href="https://youtube.com/@seba_links"
-				target="_blank"
-				aria-label="YouTube"
-				title="ir a youtube"
-			>
-				<svg width="28" height="28" class="text-white">
-					<use xlink:href="./assets/sprite.svg#youtube" />
-				</svg>
-			</a>
-			<!-- X (Twitter) -->
-			<a
-				class="bg-black p-2 size-12 flex items-center justify-center rounded-full hover:bg-gray-800 hover:scale-110 transition-all"
-				href="https://x.com/seba_links"
-				target="_blank"
-				aria-label="X (Twitter)"
-				title="ir a x"
-			>
-				<svg width="28" height="28" class="text-white">
-					<use xlink:href="./assets/sprite.svg#x" />
-				</svg>
-			</a>
-			<!-- GitHub -->
-			<a
-				class="bg-[#333333] p-2 size-12 flex items-center justify-center rounded-full hover:bg-[#24292e] hover:scale-110 transition-all"
-				href="https://github.com/seba_links"
-				target="_blank"
-				aria-label="GitHub"
-				title="ir a github"
-			>
-				<svg width="28" height="28" class="text-white">
-					<use xlink:href="./assets/sprite.svg#github" />
-				</svg>
-			</a>
+			</a> -->
+				<!-- LinkedIn -->
+				<a
+					class="bg-white p-2 size-12 flex items-center justify-center rounded-full hover:bg-sky-200 hover:scale-110 transition-all"
+					href="https://linkedin.com/in/seba_links"
+					target="_blank"
+					aria-label="LinkedIn"
+					title="ir a linkedin"
+				>
+					<svg width="28" height="28" class="text-white">
+						<use xlink:href="./assets/sprite.svg#linkedin" />
+					</svg>
+				</a>
+				<!-- YouTube -->
+				<a
+					class="bg-white p-2 size-12 flex items-center justify-center rounded-full hover:bg-red-200 hover:scale-110 transition-all"
+					href="https://youtube.com/@seba_links"
+					target="_blank"
+					aria-label="YouTube"
+					title="ir a youtube"
+				>
+					<svg width="28" height="28" class="text-white">
+						<use xlink:href="./assets/sprite.svg#youtube" />
+					</svg>
+				</a>
+				<!-- X (Twitter) -->
+				<a
+					class="bg-gray-900 p-2 size-12 flex items-center justify-center rounded-full hover:bg-gray-700 hover:scale-110 transition-all"
+					href="https://x.com/seba_links"
+					target="_blank"
+					aria-label="X (Twitter)"
+					title="ir a x"
+				>
+					<svg width="28" height="28" class="text-white">
+						<use xlink:href="./assets/sprite.svg#x" />
+					</svg>
+				</a>
+				<!-- GitHub -->
+				<a
+					class="bg-[#333333] p-2 size-12 flex items-center justify-center rounded-full hover:bg-[#24292e] hover:scale-110 transition-all"
+					href="https://github.com/seba_links"
+					target="_blank"
+					aria-label="GitHub"
+					title="ir a github"
+				>
+					<svg width="28" height="28" class="text-white">
+						<use xlink:href="./assets/sprite.svg#github" />
+					</svg>
+				</a>
+			</section>
 		</header>
 		<main>Aquí va algo</main>
 		<footer>Desarrollado con amor por Seba</footer>
