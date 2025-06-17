@@ -1,0 +1,25 @@
+{
+  "name": "tailwind---midu",
+  "version": "1.0.0",
+  "description": "Siguiendo el tutorial de Midu",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "build:styles": "npx @tailwindcss/cli -i ./input.css -o ./output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SuKuShaing/Mini-Curso-de-tailwind-4.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/SuKuShaing/Mini-Curso-de-tailwind-4/issues"
+  },
+  "homepage": "https://github.com/SuKuShaing/Mini-Curso-de-tailwind-4#readme",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.10",
+    "tailwindcss": "^4.1.10"
+  }
+}
