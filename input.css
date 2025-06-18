@@ -1,5 +1,7 @@
 @import "tailwindcss";
 
+@plugin "@midudev/tailwind-animations";
+
 @font-face {
     font-family: "Inter";
     src: url("/assets/Inter.woff2") format("woff2");

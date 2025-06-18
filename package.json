@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/SuKuShaing/Mini-Curso-de-tailwind-4#readme",
   "dependencies": {
+    "@midudev/tailwind-animations": "^0.2.0",
     "@tailwindcss/cli": "^4.1.10",
     "tailwindcss": "^4.1.10"
   }
