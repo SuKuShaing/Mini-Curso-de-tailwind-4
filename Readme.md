@@ -2,6 +2,8 @@
 
 Siguiendo el tutorial de [Midudev de Tailwind CSS](https://youtu.be/R5EXap3vNDA?si=3OILdGS-FgAkOWc1)
 
+## Proyecto disponible [aquí Seba-Links](presentacion-personal-seba.netlify.app)
+
 ## Para que funcione le autocompletado de la extensión de VSCode
 Simplemente instalar la extensión de Tailwind CSS IntelliSense para el autocompletado de las clases de Tailwind CSS.
 
