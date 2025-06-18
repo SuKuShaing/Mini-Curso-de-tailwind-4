@@ -1,5 +1,13 @@
 @import "tailwindcss";
 
+@font-face {
+    font-family: "Inter";
+    src: url("/assets/Inter.woff2") format("woff2");
+    font-style: normal;
+    font-weight: 100 900;
+    font-display: swap;
+}
+
 @theme {
     /* Colores */
     --color-primary: #c2faff;
@@ -8,6 +16,10 @@
 
     /* Breakpoints */
     --breakpoint-xs: 350px;
+
+    /* Font */
+    /* --font-sans: "Inter", system-ui, sans-serif;  Aquí sobreescribimos la fuente por defecto */
+    --font-display: "Inter", system-ui, sans-serif; 
 }
 
 .social-button {
