@@ -1,6 +1,6 @@
 # Tutorial de Tailwind CSS
 
-Siguiendo el tutorial de Midu
+Siguiendo el tutorial de [Midudev de Tailwind CSS](https://youtu.be/R5EXap3vNDA?si=3OILdGS-FgAkOWc1)
 
 ## Para que funcione le autocompletado de la extensión de VSCode
 Simplemente instalar la extensión de Tailwind CSS IntelliSense para el autocompletado de las clases de Tailwind CSS.
